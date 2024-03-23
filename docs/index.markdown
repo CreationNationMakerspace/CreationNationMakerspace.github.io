@@ -1,6 +1,6 @@
 ---
 Title: Home
-permalink: ./index.html
+permalink: /home/
 ---
 
 # Creation Nation Makerspace
@@ -30,9 +30,12 @@ Online discussion for members is on [Discord](https://discord.com/channels/54218
 - [Electronics](/spaces/electronics.md)
 
 
-## Training
+## Training Events
 - March 28th [CNC Router](https://discord.gg/jDxaVjFn?event=1204242756118257685)
 - April 4th [3D Printing](https://discord.gg/jDxaVjFn?event=1219308551122452612)
+
+## Training Materials
+- [CNC](/training/cnc)
 
 ## Tools
 - [Prusa i3 MK3.5S](./tools/prusaMk3.md)

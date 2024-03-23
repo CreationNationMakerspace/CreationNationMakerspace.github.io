@@ -1,3 +1,8 @@
+---
+Title: CNC Training
+permalink: /training/cnc/
+---
+
 # CNC Training Material
 
 ## Operation
