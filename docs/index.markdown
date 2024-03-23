@@ -3,17 +3,17 @@
 Brandon, MB
 
 ## Membership
-- 24/7 access
-- storage bin
-- includes training on equipment
+- 24/7 access to the makerspace
 - access to all tools
+- storage bin
+- training on equipment included
 - access to Discord server
 
 ## Community: 
 Online discussion for members is on [Discord](https://discord.com/channels/542188140220383261/)
 
 ## Spaces
-- [Woodshop](./woodshop.md)
+- [Woodshop](./spaces/woodshop.md)
 - [CNC Router](./spaces/cnc.md)
 - [Laser](./spaces/laser.md)
 - [3d Printing](./spaces/3dprinting.md)
@@ -21,6 +21,8 @@ Online discussion for members is on [Discord](https://discord.com/channels/54218
 - [Paint / Finishing Room](./spaces/paint.md)
 - [Vinyl Cutting](./spaces/vinyl.md)
 - [Sublimation](./spaces/sublimation.md)
+- [Crafting](./spaces/crafting.md)
+- [Electronics](/spaces/electronics.md)
 
 
 ## Training
@@ -28,7 +30,7 @@ Online discussion for members is on [Discord](https://discord.com/channels/54218
 - April 4th [3D Printing](https://discord.gg/jDxaVjFn?event=1219308551122452612)
 
 ## Tools
-- [fonts](./tools/fonts.md)
+- [Prusa i3 MK3.5S](./tools/prusaMk3.md)
 
 
 ## Projects
