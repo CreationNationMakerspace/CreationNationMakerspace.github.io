@@ -1,4 +1,4 @@
-# Creation Nation Makerspace
+
 ## Community: [Discord](https://discord.com/channels/542188140220383261/)
 ## Info on Spaces
 ### [Woodshop](./woodshop.md)
@@ -13,7 +13,3 @@
 
 ## Tools
 ## Tips
-
-
-
-
