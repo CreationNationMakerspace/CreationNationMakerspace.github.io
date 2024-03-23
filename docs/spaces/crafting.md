@@ -2,8 +2,11 @@
 sort: 2
 ---
 
-# Crafting
+# Crafting Space
 ## Tools
+- Embroidery Machine
+- Serger Sewing Machine
+- Button Makers
 
 
 ## Training

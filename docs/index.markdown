@@ -1,3 +1,8 @@
+---
+Title: Home
+permalink: ./index.html
+---
+
 # Creation Nation Makerspace
 440 Rosser Avenue
 Brandon, MB
