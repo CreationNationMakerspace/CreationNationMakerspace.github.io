@@ -1,6 +1,6 @@
 ---
 Title: Home
-permalink: /home/
+permalink: /
 ---
 
 # Creation Nation Makerspace
