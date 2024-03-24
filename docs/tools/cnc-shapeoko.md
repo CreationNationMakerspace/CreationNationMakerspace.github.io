@@ -6,10 +6,10 @@ permalink: tools/cnc-shapeoko
 
 
 # Design Resources
-- 
+
 # Operation
 
-```
+```tip
 Go to [Running a Job](https://shapeokoenthusiasts.gitbook.io/shapeoko-cnc-a-to-z/first-cuts) from Shapeoko CNC book A to Z book for more details
 ```
 
