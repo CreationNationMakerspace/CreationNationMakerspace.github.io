@@ -4,8 +4,8 @@ permalink: /home/
 ---
 
 # Creation Nation Makerspace
-440 Rosser Avenue
-Brandon, MB
+[440 Rosser Avenue
+Brandon, MB](https://maps.app.goo.gl/kUVzckG4yBWrfiLQA)
 
 ## Membership
 - 24/7 access to the makerspace
@@ -38,6 +38,7 @@ Online discussion for members is on [Discord](https://discord.com/channels/54218
 - [CNC](/training/cnc)
 
 ## Tools
+[Tool access and usage](/tools/)
 - [Prusa i3 MK3.5S](./tools/prusaMk3.md)
 
 
