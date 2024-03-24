@@ -38,7 +38,7 @@ Online discussion for members is on [Discord](https://discord.com/channels/54218
 - [CNC](/training/cnc)
 
 ## Tools
-[Tool access and usage](/tools/)
+[Tool access and usage](./tools/tools.md)
 - [Prusa i3 MK3.5S](./tools/prusaMk3.md)
 
 
