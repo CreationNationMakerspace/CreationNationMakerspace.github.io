@@ -8,9 +8,16 @@ Discussions for content on our Discord [online-docs channel](https://discord.com
 - overview
 - guidelines / community expectations
 - spaces
- - rules for that space
- - tools in that space
- - what is shared use
- - what consumables you can use and how to pay for them
+    - rules for that space
+    - tools in that space
+    - what is shared use
+    - what consumables you can use and how to pay for them
 - tools
+    - description of tool
+    - hazards
+    - link to manual
+    - link to manufacturers training
+    - embed training video
+    - record of maintenance
 - training material
+    - material for training either on a tool or for a space
