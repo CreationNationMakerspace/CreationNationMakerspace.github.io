@@ -18,7 +18,7 @@ peramlink: /tools/overview/
 ### Substractive
 - Vinyl Cutters
 - CNC Routers
-    - [Shapeoko 3 XXL](/tools/cnc-Shapeoko)
+    - [Shapeoko 3 XXL](/tools/cnc-shapeoko)
     - OpenBuilds 8' x 4'
 - Laser Cutters
 - Plasma Cutter
