@@ -1,6 +1,7 @@
 ---
+sort: 2
 title: Tools
-peramlink: /tools/overview/
+permalink: /tools/
 ---
 
 # Tools

@@ -32,6 +32,11 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
+# ran bundle exec jekyll serve but needed to add webrick to Gemfile
+gem "webrick", "~> 1.7"
+
+# Table of contents not working
+gem "jekyll-toc", "~> 0.12"
 
 # Add Jekyll plugins for remote theme
 gem "jekyll-remote-theme"

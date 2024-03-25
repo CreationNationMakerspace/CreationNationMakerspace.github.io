@@ -1,5 +1,6 @@
 ---
-sort: 9
+title: Fonts
+permalink: tools/fonts
 text: |
   ABCDEFGHIJKLMNOPQRSTUVWXYZ
   abcdefghijklmnopqrstuvwxyz

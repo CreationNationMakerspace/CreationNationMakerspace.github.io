@@ -1,8 +1,10 @@
 ---
-sort: 1
+sort: 4
+title: CNC Routing space
+permalink: spaces/cnc
 ---
 
-# CNC Router Space
+# CNC Routers
 
 There are two machines in this space:
 1. [Shapeoko 3 XXL](../tools/shapoko.html)
