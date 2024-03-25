@@ -19,6 +19,7 @@ CNC Routing removes material from your stock by a rotating endmill/bit.
 
 
 ## Starter Projects
+From Carbide 3D [Your First Five Projects](https://my.carbide3d.com/gsff/01/):
 1. **Engraved Coasters**
 Description: Simple wooden coasters with engraved designs or text. This project helps beginners learn about engraving, handling shallow depths, and working with wood.
 Skills Learned: Engraving, setting up workpieces, and finishing.
