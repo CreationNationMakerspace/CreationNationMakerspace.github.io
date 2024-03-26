@@ -1,0 +1,41 @@
+<style>
+
+
+li.spaces {
+  width: 150px;
+}
+
+li.spaces:hover {
+  background-color: #ddd;
+}
+
+svg {
+  float: right;
+  max-width: 50%;
+  position: relative;
+  top: -400px;
+}
+
+svg g a:hover rect {
+    fill: yellow;
+}
+
+/* The following styles are used to highlight the current space from the list*/
+li#entrance:hover ~ svg g rect#entrance { fill: yellow } /* + = immediate sibling selector */
+li#classroom:hover ~ svg g rect#classroom { fill: yellow }
+li#lounge:hover ~ svg g rect#lounge { fill: yellow }
+li#electronics:hover ~ svg g rect#electronics { fill: yellow }
+li#photography:hover ~ svg g rect#photography { fill: yellow }
+li#soundbooth:hover ~ svg g rect#soundbooth { fill: yellow }
+li#loading:hover ~ svg g rect#loading { fill: yellow }
+li#assembly:hover ~ svg g rect#assembly { fill: yellow }
+li#paint:hover ~ svg g rect#paint { fill: yellow }
+li#metalshop:hover ~ svg g rect#metalshop { fill: yellow }
+li#laser:hover ~ svg g rect#laser { fill: yellow }
+li#woodshop:hover ~ svg g rect#woodshop { fill: yellow }
+li#crafting:hover ~ svg g rect#crafting  {fill: yellow}
+li#cnc:hover ~ svg g rect#cnc  {fill: yellow}
+li#threedprinting:hover ~ svg g rect#threedprinting  {fill: yellow}
+
+
+</style>

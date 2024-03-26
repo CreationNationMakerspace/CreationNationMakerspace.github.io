@@ -1,0 +1,52 @@
+<script type="text/javascript">
+ // Find all the <a> elements in the list
+    var items = document.querySelectorAll("UL.spaces LI A");
+
+// To each of them, add an event handler for when the mouse enters its box, and also when it leaves
+items.forEach(item => {
+  item.addEventListener("mouseover", itemMouseOver);
+  item.addEventListener("mouseout", itemMouseOut);
+});
+console.log(items.length);
+function itemMouseOver(evt) {
+  // Get the value of the data-area-id attribute for the <a> we are entering
+  var areaId = evt.target.dataset['areaId'];
+  console.log(areaId);
+  // Use it to find the right circle, and add the class "active" to its class attribute
+  document.getElementById(areaId).classList.add("active");
+}
+
+function itemMouseOut(evt) {
+  // Get the value of the data-area-id attribute for the <a> we are entering
+  var areaId = evt.target.dataset['areaId'];
+  // Use it to find the right circle, and remove the class "active" from its class attribute
+  document.getElementById(areaId).classList.remove("active");
+}
+
+
+
+// Find all the <circle> elements in the list
+var circles = document.querySelectorAll("svg circle");
+
+// To each of them, add an event handler for when the mouse enters its box, and also when it leaves
+circles.forEach(item => {
+  item.addEventListener("mouseover", circleMouseOver);
+  item.addEventListener("mouseout", circleMouseOut);
+});
+
+function circleMouseOver(evt) {
+  // Get the id of the circle
+  var areaId = evt.target.id;
+  // Use it to find the right list item, the one with data-area-id="<id>", and add the class "active" to its class attribute
+  document.querySelector('.location__list-item a[data-area-id="'+areaId+'"]').parentElement.classList.add("active");
+}
+
+function circleMouseOut(evt) {
+  // Get the id of the circle
+  var areaId = evt.target.id;
+  // Use it to find the right list item, the one with data-area-id="<id>", and remove the class "active" from its class attribute
+  document.querySelector('.location__list-item a[data-area-id="'+areaId+'"]').parentElement.classList.remove("active");
+}
+
+
+</script>

@@ -1,6 +1,6 @@
 ---
 sort: 1
-layout: default
+layout: spaces
 title: Spaces
 ---
 # Spaces
