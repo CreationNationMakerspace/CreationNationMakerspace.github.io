@@ -7,3 +7,5 @@ permalink: spaces/woodshop
 ## Tools
 ## Practices
 ## Tips
+
+## Cleanup & Maintenance

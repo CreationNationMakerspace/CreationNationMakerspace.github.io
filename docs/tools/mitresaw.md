@@ -4,9 +4,9 @@ permalink: tools/mitresaw
 ---
 # Compount Mitre Saw
 ## Model
-Bosch GCM12SD
+[**Bosch GCM12SD**](https://data2.manualslib.com/pdf7/339/33816/3381540-bosch/professional_gcm_12.pdf?288e7c03b3f9e153fe2592afa035b7a8&take=binary)
 - 12" blade.
-- 13.5" cutting depth.
+
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/92digbYvXbU?si=wx6tcsfTzgv4mudq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 

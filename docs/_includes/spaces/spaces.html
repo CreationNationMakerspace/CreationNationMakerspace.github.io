@@ -4,7 +4,7 @@
         <li class="spaces" id="entrance"><a href="/spaces/entrance">Entrance</a></li>
         <li class="spaces" id="classroom"><a href="/spaces/classroom">Classroom</a></li>
         <li class="spaces" id="lounge"><a href="/spaces/lounge">Lounge</a></li>
-        <li class="spaces" id="crafting"><a href="/spaces/crafting">Crafting</a></li>
+        <li class="spaces" id="crafting"><a href="/spaces/crafting">Textile Studio</a></li>
         <li class="spaces" id="electronics"><a href="/spaces/electronics">Electronics</a></li>
         <li class="spaces" id="threedprinting"><a href="/spaces/3dprinting">3D Printing</a></li>
         <li class="spaces" id="photography"><a href="/spaces/photography">Photography</a></li>
@@ -23,7 +23,7 @@
         <defs>
             <style>
                 
-                @import url("https://fonts.googleapis.com/css?family=Roboto:600,600i,700,700i");
+                @import url("https://fonts.googleapis.com/css?family=Roboto:500,500i,700,700i");
  
                 .cls-1{fill:#444;stroke: none;}
                 .cls-1,.cls-2{stroke-miterlimit:10;}.cls-2{fill:#ccc;stroke:#fff;stroke-width: 2px;}
@@ -40,6 +40,19 @@
                     fill: #444;
                     
                 }
+                rect:hover + text {
+                    fill: white;
+                 
+                }
+                svg a:hover {
+                    text-decoration: none;
+                 }
+                text:hover {
+                    fill: white;
+                }
+                text {
+                    stroke: none;
+                }
             </style>
         </defs>
         
@@ -49,90 +62,98 @@
                 <rect id="entrance" class="cls-2" x="10.32" y="10.27" width="43" height="201.95">
                     <title>Entrance</title>
                 </rect>
+                <text id="entrance" x="30" y="50" font-family="Roboto" transform="rotate(90)">Entry</text>	
+                
             </a>
             <a href="/spaces/classroom">
                 <rect id="classroom" class="cls-2" x="57.86" y="10.27" width="171.51" height="201.95">
                     <title>Classroom</title>
                 </rect> 
-                <text x="80" y="50" font-family="Roboto">Classroom</text>
+                <text id="classroom" x="80" y="50" font-family="Roboto">Classroom</text>
             </a>
             <a id="lounge" href="/spaces/lounge">
                 <rect id="lounge" class="cls-2" x="105.57" y="215.53" width="123.81" height="199.9">
                     <title>Lounge</title>
                 </rect>
-                <text x="130" y="250" font-family="Roboto">Lounge</text>
+                <text id="lounge" x="130" y="250" font-family="Roboto">Lounge</text>
             </a>
             <a href="/spaces/crafting">
                 <rect id="crafting" class="cls-2" x="10.32" y="463.01" width="219.06" height="181.76">
-                    <title>Crafting</title>
+                    <title>Textiles Studio</title>
                 </rect>
-                <text x="80" y="500" font-family="Roboto">Crafting</text>
+                <text id="crafting" x="80" y="500" font-family="Roboto">Textile Studio</text>
             </a>
             <a href="/spaces/3dprinting">
                 <rect id="threedprinting" class="cls-2" x="112.79" y="712.7" width="268.02" height="62.23">
                     <title>3D Printing</title>
                 </rect>
-                <text x="130" y="750" font-family="Roboto">3D Printing</text>
+                <text id="threedprinting"  x="130" y="750" font-family="Roboto">3D Printing</text>
             </a>
             <a href="/spaces/electronics">
                 <rect id="electronics" class="cls-2" x="168.67" y="650.48" width="134.05" height="62.23">
                     <title>Electronics</title>
                 </rect>
-                <text x="175" y="690" font-family="Roboto">Electronics</text>
+                <text id="electronics" x="175" y="690" font-family="Roboto">Electronics</text>
             </a>
             <a href="/spaces/photography">
                 <rect id="photography" class="cls-2" x="302.72" y="650.48" width="78.08" height="62.23">
                     <title>Photography</title>
                 </rect>
-                <text x="320" y="690" font-family="Roboto" font-size=".6em">Photo</text>
+                <text id="photography" x="320" y="690" font-family="Roboto" font-size=".6em">Photo</text>
             </a>    
             <a href="/spaces/soundbooth">
                 <rect id="soundbooth" class="cls-2" x="385" y="650.48" width="74.62" height="124.45">
                     <title>Soundbooth</title>   
                 </rect>
-                <text x="400" y="700" font-family="Roboto"><tspan>Sound</tspan><tspan x="400" dy="1.2em">Booth</tspan></text>
+                <text id="soundbooth" x="400" y="700" font-family="Roboto"><tspan>Sound</tspan><tspan x="400" dy="1.2em">Booth</tspan></text>
             </a>
             <a href="/spaces/metalshop">
                 <rect id="metalshop" class="cls-2" x="468.22" y="567.88" width="210.74" height="207.05">
                     <title>Metal Shop</title>
                 </rect>
-                <text x="500" y="600" font-family="Roboto">Metal Shop</text>
+                <text id="metalshop" x="500" y="600" font-family="Roboto">Metal Shop</text>
             </a>
             <a href="/spaces/cnc">
                 <rect id="cnc" class="cls-2" x="528.47" y="446.83" width="151.69" height="117.05">
                     <title>CNC Routing</title>
                 </rect>
-                <text x="550" y="480" font-family="Roboto">CNC Shop</text>
+                <text id="cnc" x="550" y="480" font-family="Roboto">CNC Shop</text>
             </a>
             <a href="/spaces/laser">
                 <rect id="laser" class="cls-2" x="529.05" y="344.61" width="151.12" height="98.47">
                     <title>Laser</title>
                 </rect>
-                <text x="550" y="380" font-family="Roboto">Laser Shop</text>
+                <text id="laser" x="550" y="380" font-family="Roboto">Laser Shop</text>
             </a>
             <a href="/spaces/paint">
                 <rect id="paint" class="cls-2" x="529.05" y="241.79" width="149.92" height="98.35">
                     <title>Paint Room</title>
                 </rect>
-                <text x="550" y="280" font-family="Roboto">Paint Room</text>
+                <text id="paint" x="550" y="280" font-family="Roboto">Paint Room</text>
             </a>
             <a href="/spaces/loading">
                 <rect id="loading" class="cls-2" x="250" y="10" width="200" height="100">
                     <title>Loading Zone</title>
                 </rect>
-                <text x="275" y="50" font-family="Roboto">Loading Zone</text>
+                <text id="loading" x="275" y="50" font-family="Roboto">Loading Zone</text>
             </a>
             <a href="/spaces/assembly">
                 <rect id="assembly" class="cls-2" x="518.81" y="22.31" width="160.15" height="188.4">
-                    <title>Assembly</title>
+                    <title>Assembling Area</title>
                 </rect>
-                <text x="550" y="60" font-family="Roboto">Assembly</text>
+                <text id="assembly" x="550" y="60" font-family="Roboto"><tspan>Assembling</tspan><tspan x="550" dy="1.2em">Area</tspan></text>
             </a>
             <a href="/spaces/woodshop">
                 <rect id="woodshop" class="cls-2" x="236.7" y="271.97" width="222.92" height="372.79">
                     <title>Wood Shop</title>
                 </rect>
-                <text x="250" y="310" font-family="Roboto">Wood Shop</text>
+                <text id="woodshop" x="250" y="310" font-family="Roboto">Wood Shop</text>
+            </a>
+            <a href="/contact/Manager">
+                <rect id="manager" class="cls-2" x="10" y="650" width="85" height="70">
+                    <title>Manager</title>
+                </rect>
+                <text id="manager" x="15" y="679" font-family="Roboto">Manager</text>
             </a>
         </g>
         <g id="Walls">
@@ -147,9 +168,9 @@
             <rect class="cls-1" x="10.32" y="412.04" width="49.78" height="3.4"/>
         </g>
         <g id="Labels">
-            
-            
+            <text id="entrance" x="-10" y="50" font-family="Roboto" transform="rotate(90)" >Entrance</text>	
         </g>
+        
     </svg>
   </section>
   
