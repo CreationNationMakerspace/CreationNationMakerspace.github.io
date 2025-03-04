@@ -1,0 +1,43 @@
+---
+layout: default
+---
+<div class="tool-documentation">
+    <div class="tool-header">
+        <h1>{{ page.title }}</h1>
+        {% if page.version %}
+        <span class="version">Version: {{ page.version }}</span>
+        {% endif %}
+    </div>
+
+    <div class="tool-content">
+        {{ content }}
+    </div>
+
+    {% if page.specifications %}
+    <div class="specifications">
+        <h2>Specifications</h2>
+        {{ page.specifications }}
+    </div>
+    {% endif %}
+
+    {% if page.safety %}
+    <div class="safety">
+        <h2>Safety Guidelines</h2>
+        {{ page.safety }}
+    </div>
+    {% endif %}
+
+    {% if page.maintenance %}
+    <div class="maintenance">
+        <h2>Maintenance</h2>
+        {{ page.maintenance }}
+    </div>
+    {% endif %}
+
+    {% if page.troubleshooting %}
+    <div class="troubleshooting">
+        <h2>Troubleshooting</h2>
+        {{ page.troubleshooting }}
+    </div>
+    {% endif %}
+</div> 

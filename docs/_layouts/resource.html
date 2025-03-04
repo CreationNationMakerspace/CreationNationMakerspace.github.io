@@ -1,0 +1,32 @@
+---
+layout: default
+---
+<div class="resource-documentation">
+    <div class="resource-header">
+        <h1>{{ page.title }}</h1>
+        {% if page.type %}
+        <span class="type">Type: {{ page.type }}</span>
+        {% endif %}
+        {% if page.date %}
+        <span class="date">Last Updated: {{ page.date }}</span>
+        {% endif %}
+    </div>
+
+    <div class="resource-content">
+        {{ content }}
+    </div>
+
+    {% if page.downloads %}
+    <div class="downloads">
+        <h2>Downloads</h2>
+        {{ page.downloads }}
+    </div>
+    {% endif %}
+
+    {% if page.related_resources %}
+    <div class="related-resources">
+        <h2>Related Resources</h2>
+        {{ page.related_resources }}
+    </div>
+    {% endif %}
+</div> 

@@ -1,0 +1,85 @@
+/* Tool Documentation Styles */
+.tool-documentation {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.tool-header {
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 1rem;
+}
+
+.tool-header h1 {
+    margin: 0;
+    color: #333;
+}
+
+.version {
+    color: #666;
+    font-size: 0.9em;
+}
+
+/* Training Documentation Styles */
+.training-documentation {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.training-header {
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 1rem;
+}
+
+.duration, .level {
+    display: inline-block;
+    margin-right: 1rem;
+    color: #666;
+    font-size: 0.9em;
+}
+
+/* Resource Documentation Styles */
+.resource-documentation {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.resource-header {
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 1rem;
+}
+
+.type, .date {
+    display: inline-block;
+    margin-right: 1rem;
+    color: #666;
+    font-size: 0.9em;
+}
+
+/* Common Styles */
+.specifications,
+.safety,
+.maintenance,
+.troubleshooting,
+.prerequisites,
+.objectives,
+.materials,
+.downloads,
+.related-resources {
+    margin: 2rem 0;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 4px;
+}
+
+h2 {
+    color: #333;
+    margin-top: 0;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #eee;
+} 

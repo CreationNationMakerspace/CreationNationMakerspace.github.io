@@ -12,7 +12,7 @@ Brandon, MB](https://maps.app.goo.gl/kUVzckG4yBWrfiLQA)
 - access to all tools
 - storage bin
 - training on equipment included
-- access the community to Discord server
+- access to the community Discord server
 
 ## Community: 
 - Online discussion for members is on [Discord](https://discord.com/channels/542188140220383261/)

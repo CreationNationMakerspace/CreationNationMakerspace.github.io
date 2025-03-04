@@ -1,0 +1,116 @@
+<div class="search-container">
+    <input type="text" 
+           id="searchInput" 
+           class="search-input" 
+           placeholder="Search {{ page.title }}..."
+           aria-label="Search {{ page.title }}">
+    <div id="searchResults" class="search-results"></div>
+</div>
+
+<style>
+.search-container {
+    position: relative;
+    margin: 1rem 0;
+}
+
+.search-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+}
+
+.search-result-item {
+    padding: 0.5rem;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.search-result-item:hover {
+    background: #f5f5f5;
+}
+
+.highlight {
+    background-color: #fff3cd;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const searchInput = document.getElementById('searchInput');
+    const searchResults = document.getElementById('searchResults');
+    const collectionItems = document.querySelectorAll('.collection-content li');
+    
+    let searchTimeout;
+
+    searchInput.addEventListener('input', function() {
+        clearTimeout(searchTimeout);
+        const searchTerm = this.value.toLowerCase();
+        
+        if (searchTerm.length < 2) {
+            searchResults.style.display = 'none';
+            return;
+        }
+
+        searchTimeout = setTimeout(() => {
+            const results = Array.from(collectionItems).filter(item => {
+                const text = item.textContent.toLowerCase();
+                return text.includes(searchTerm);
+            });
+
+            if (results.length > 0) {
+                searchResults.innerHTML = results.map(item => {
+                    const text = item.textContent;
+                    const highlightedText = text.replace(
+                        new RegExp(searchTerm, 'gi'),
+                        match => `<span class="highlight">${match}</span>`
+                    );
+                    return `<div class="search-result-item">${highlightedText}</div>`;
+                }).join('');
+                searchResults.style.display = 'block';
+            } else {
+                searchResults.innerHTML = '<div class="search-result-item">No results found</div>';
+                searchResults.style.display = 'block';
+            }
+        }, 300);
+    });
+
+    // Close search results when clicking outside
+    document.addEventListener('click', function(e) {
+        if (!searchInput.contains(e.target) && !searchResults.contains(e.target)) {
+            searchResults.style.display = 'none';
+        }
+    });
+
+    // Navigate to result when clicked
+    searchResults.addEventListener('click', function(e) {
+        if (e.target.classList.contains('search-result-item')) {
+            const text = e.target.textContent;
+            const matchingItem = Array.from(collectionItems).find(item => 
+                item.textContent === text
+            );
+            if (matchingItem) {
+                matchingItem.scrollIntoView({ behavior: 'smooth' });
+                searchResults.style.display = 'none';
+                searchInput.value = '';
+            }
+        }
+    });
+});
+</script> 
