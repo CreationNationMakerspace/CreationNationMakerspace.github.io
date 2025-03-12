@@ -49,6 +49,11 @@ collections:
     permalink: /resources/:path/
     sort_by: title
     sort_order: asc
+  slides:
+    output: true
+    permalink: /slides/:path/
+    sort_by: title
+    sort_order: asc
 
 # Default settings for documents in collections
 defaults:
@@ -76,6 +81,12 @@ defaults:
     values:
       layout: "resource"
       category: "resources"
+  - scope:
+      path: ""
+      type: slides
+    values:
+      layout: "slide"
+      category: "slides"
 
 # Build settings
 theme: null
