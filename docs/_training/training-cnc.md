@@ -11,7 +11,7 @@ prerequisites:
   - Membership status
 ---
 # CNC Training
-
+- [CNC Routing Slides](/slides/cnc)
 ## Overview
 - What is CNC Routing?
 - Machine Capabilities
